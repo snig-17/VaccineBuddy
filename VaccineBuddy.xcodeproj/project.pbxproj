@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F4E25EAE2F1448E40047E3EB /* DogRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E25EAD2F1448DD0047E3EB /* DogRepository.swift */; };
+		F4E25EB02F144A380047E3EB /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E25EAF2F144A340047E3EB /* PhotoStore.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F44B1A332F144024008C116D /* VaccineBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaccineBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E25EAD2F1448DD0047E3EB /* DogRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogRepository.swift; sourceTree = "<group>"; };
+		F4E25EAF2F144A340047E3EB /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +41,8 @@
 			children = (
 				F44B1A352F144024008C116D /* VaccineBuddy */,
 				F44B1A342F144024008C116D /* Products */,
+				F4E25EAD2F1448DD0047E3EB /* DogRepository.swift */,
+				F4E25EAF2F144A340047E3EB /* PhotoStore.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E25EB02F144A380047E3EB /* PhotoStore.swift in Sources */,
+				F4E25EAE2F1448E40047E3EB /* DogRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
